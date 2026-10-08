@@ -13,10 +13,11 @@
 /codes/out_*/
 /codes/bench_data/
 
-# Keep only the two delivery documents in Git
+# Keep only the delivery documents in Git
 /docs/*
 !/docs/candidate_task.md
 !/docs/DESIGN.md
+!/docs/EXPERIMENTS.md
 
 # Common compiler artifacts
 *.obj
