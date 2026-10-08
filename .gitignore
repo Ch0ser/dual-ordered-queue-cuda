@@ -1,0 +1,33 @@
+# IDE settings
+/.vscode/
+
+# Root-level generated build files
+/build/
+
+# CMake and Visual Studio build trees
+/codes/build/
+/codes/build-*/
+
+# Generated program and benchmark output
+/codes/out/
+/codes/out_*/
+/codes/bench_data/
+
+# Keep only the two delivery documents in Git
+/docs/*
+!/docs/candidate_task.md
+!/docs/DESIGN.md
+
+# Common compiler artifacts
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.lib
+*.exp
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.user
+*.suo
